@@ -1,0 +1,133 @@
+1) Print "Hello I am enjoying coding"
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello I am enjoying coding");
+    }
+}
+
+Output:-Hello I am enjoying coding.
+
+2) Print the below pattern:
+Hello
+I
+am
+enjoying
+coding
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello\nI\nam\nenjoying\ncoding");
+    }
+}
+Output:- 
+Hello
+I
+am
+enjoying
+coding
+
+3)Find the sum, product of 100,8,3.
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        int a=100,b=8,c=3, sum, product;
+        sum= a+b+c;
+        product= a*b*c;
+        System.out.println(sum);
+        System.out.println(product);
+    }
+}
+output:- 
+111
+2400
+
+4)Find the difference between 100 and 40.
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        int a=100,b=40, diff;
+        diff=a-b;
+        System.out.println(diff);
+    }
+}
+Output:- 60
+
+5)Print the below pattern
+*****
+*****
+*****
+*****
+*****
+*****
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("*****\n*****\n*****\n*****\n*****\n*****");
+    }
+}
+Output:-
+*****
+*****
+*****
+*****
+*****
+*****
+6)Print the below pattern
+* *
+* *
+* *
+* *
+* *
+****
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("* *\n* *\n* *\n* *\n* *\n****");
+    }
+}
+Output:-
+* *
+* *
+* *
+* *
+* *
+****
+7)Find the last digit of the number 987653.
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        int a = 987653%10;
+        System.out.println(a);
+    }
+}
+Output:- 3
+8)Store values 15, 4 in m and n variable of int data type then
+Print value of m+n in the first line,
+Print value of m-n in the second line,
+Print value of m*n in the second line.
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        int m=15,n=4, sum, mul, diff;
+        sum=m+n;
+        diff=m-n;
+        mul=m*n;
+        System.out.println(sum);
+        System.out.println(diff);
+        System.out.println(mul);
+    }
+}
+Output:- 
+19
+11
+60
+
+
